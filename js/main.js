@@ -39,7 +39,7 @@
     $('#header').addClass('header-scrolled');
   }
 
-  // Smooth scroll for the navigation and links with .scrollto classes
+  // Smooth scroll for the navigation and links with .scrollto classes (Desplazamiento suave para la navegación y enlaces con clases .scrollto)
   $('.main-nav a, .mobile-nav a, .scrollto').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -73,7 +73,7 @@
     }
   });
 
-  // Navigation active state on scroll
+  // Navigation active state on scroll (Estado activo de navegación en desplazamiento)
   var nav_sections = $('section');
   var main_nav = $('.main-nav, .mobile-nav');
   var main_nav_height = $('#header').outerHeight();
@@ -92,13 +92,13 @@
     });
   });
 
-  // jQuery counterUp (used in Whu Us section)
+  // jQuery counterUp (used in Whu Us section) (jQuery counterUp (usado en la sección Whu Us))
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
   });
 
-  // Porfolio isotope and filter
+  // Porfolio isotope and filter 
   $(window).on('load', function () {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'

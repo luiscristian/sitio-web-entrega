@@ -486,7 +486,7 @@ p {
   text-align: center;
   font-weight: 500;
   position: relative;
-  margin-top: 150px; /* Ajusta el valor según el margen deseado */
+  margin-top: 50px; /* Ajusta el valor según el margen deseado */
 }
 .centered-text {
   display: flex;
