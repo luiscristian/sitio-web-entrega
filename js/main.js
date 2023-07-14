@@ -10,7 +10,7 @@
     }
   });
 
-  // Back to top button
+  // Back to top button (volver al botón superior)
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -23,10 +23,10 @@
     return false;
   });
 
-  // Initiate the wowjs animation library
+  // Initiate the wowjs animation library(Inicie la biblioteca de animación)
   new WOW().init();
 
-  // Header scroll class
+  // Header scroll class(Clase de desplazamiento de encabezado)
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
@@ -39,7 +39,11 @@
     $('#header').addClass('header-scrolled');
   }
 
+<<<<<<< HEAD
   // Smooth scroll for the navigation and links with .scrollto classes (Desplazamiento suave para la navegación y enlaces con clases .scrollto)
+=======
+  // Smooth scroll for the navigation and links with .scrollto classes(Desplazamiento suave para la navegación y enlaces con clases .scrollto)
+>>>>>>> d3151ad1a8a953d85fb60d029d5be93364240527
   $('.main-nav a, .mobile-nav a, .scrollto').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -73,7 +77,11 @@
     }
   });
 
+<<<<<<< HEAD
   // Navigation active state on scroll (Estado activo de navegación en desplazamiento)
+=======
+  // Navigation active state on scroll(Estado activo de navegación en desplazamiento)
+>>>>>>> d3151ad1a8a953d85fb60d029d5be93364240527
   var nav_sections = $('section');
   var main_nav = $('.main-nav, .mobile-nav');
   var main_nav_height = $('#header').outerHeight();
@@ -111,7 +119,7 @@
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
+  // Testimonials carousel (uses the Owl Carousel library)(Carrusel de testimonios (utiliza la biblioteca Owl Carousel))
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
